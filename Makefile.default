@@ -129,7 +129,7 @@ install: saveclean
 	mkdir -p $(DESTDIR)/usr/share/doc/asciiportal
 	mkdir -p $(DESTDIR)/usr/bin
 	cp -r media/ maps/ $(DESTDIR)/usr/share/asciiportal/
-	cp README CHANGELOG $(DESTDIR)/usr/share/doc/asciiportal/
+	cp README.md CHANGELOG.md $(DESTDIR)/usr/share/doc/asciiportal/
 	cp $(EXE_NAME) $(DESTDIR)/usr/bin/
 	chmod 0644 $(DESTDIR)/usr/share/doc/asciiportal/*
 	chmod 0755 $(DESTDIR)/usr/bin/$(EXE_NAME)
